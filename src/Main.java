@@ -28,6 +28,10 @@ public class Main {
         biblioteka.dodajKsiazke(ks2);
         biblioteka.dodajKsiazke(ks3);
         biblioteka.dodajKsiazke(ks4);
-        
+        biblioteka.wypiszKsiazki();
+        System.out.println("--------------------------------------------------");
+        biblioteka.znajdzKsiazke("lorem").wypiszInfo();
+        System.out.println("--------------------------------------------------");
+        biblioteka.policzDostepneKsiazki();
     }    
 }
