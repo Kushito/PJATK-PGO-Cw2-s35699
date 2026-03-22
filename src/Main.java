@@ -22,5 +22,12 @@ public class Main {
         cz2.wypozycz();
         cz2.wypiszDane();
         System.out.println("--------------------------------------------------");
+
+        Biblioteka biblioteka = new Biblioteka(10);
+        biblioteka.dodajKsiazke(ks1);
+        biblioteka.dodajKsiazke(ks2);
+        biblioteka.dodajKsiazke(ks3);
+        biblioteka.dodajKsiazke(ks4);
+        
     }    
 }
