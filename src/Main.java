@@ -33,5 +33,6 @@ public class Main {
         biblioteka.znajdzKsiazke("lorem").wypiszInfo();
         System.out.println("--------------------------------------------------");
         biblioteka.policzDostepneKsiazki();
+        
     }    
 }
