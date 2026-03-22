@@ -6,9 +6,21 @@ public class Main {
         Ksiazka ks4 = new Ksiazka("Amet", "Ano", 50, true);
 
         ks1.wypiszInfo();
+        System.out.println("--------------------------------------------------");
         ks2.zwroc();
+        ks3.wyporzycz();
         ks4.wyporzycz();
         ks2.wypiszInfo();
+        System.out.println("--------------------------------------------------");
         ks4.wypiszInfo();
-    }
+        System.out.println("--------------------------------------------------");
+        Czytelnik cz1 = new Czytelnik("Jan", "Kowalski", 123, 0);
+        Czytelnik cz2 = new Czytelnik("Adam", "Nowak", 456, 2);
+
+        cz1.wypiszDane();
+        System.out.println("--------------------------------------------------");
+        cz2.wypozycz();
+        cz2.wypiszDane();
+        System.out.println("--------------------------------------------------");
+    }    
 }
